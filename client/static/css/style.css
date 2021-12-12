@@ -1,0 +1,399 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap');
+
+:root {
+    --main-bg:#F3F4F3;
+    --main-color:#495057;
+    --main-shadow:#e0f3ff;
+    --main-hover:#00e7ff;
+}
+::-webkit-scrollbar {
+    width: 6px;
+    cursor: pointer;
+}
+::-webkit-scrollbar-track {
+    cursor: pointer;
+    background: none; 
+}
+::-webkit-scrollbar-thumb {
+    background: #0066ff;
+    cursor: pointer;
+}
+body {
+    font-family: 'Fuzzy Bubbles', cursive !important;
+    max-width: 1700px;
+    background: white !important;
+}
+a {
+    text-decoration: none !important;
+}
+a:hover {
+    text-decoration: none !important;
+}
+button:focus{
+    outline: none !important;
+}
+
+
+.nav-top {
+    background: linear-gradient(268deg, #7aafff24 -145.97%, #136ae54a 40.85%, #0066ff 141.49%) !important;
+    color:white;
+    padding:0 30px;
+    width: 100%;
+}
+.nav-top img {
+    width: 15%;
+    height: auto;
+}
+.nav-top #left{
+    padding:15px 0;
+}
+.nav-top #left *{
+    display: inline-block;
+}
+.nav-top #left h3 {
+    margin:0;
+    position: relative;
+    top:5px;
+    left: 20px;
+}
+.nav-top #right{
+    margin-left: auto;
+}
+.nav-top #right ul{
+    padding-top: 10px;
+    margin: 0;
+    list-style-type: none;
+}
+.nav-top #right ul li {
+    display: inline-block;
+    font-size:20px;
+    margin:0 10px;
+    margin-top:15px;
+    cursor: pointer;
+    position: relative;
+}
+.nav-top #right i {
+    position: relative;
+    bottom:5px;
+    left: 5px;
+    font-size:13px;
+}
+.nav-top #right li ul {
+    position: absolute;
+    -webkit-columns: 4;
+    right: 0;
+    top:45px;
+    width: 500%;
+    margin: 0;
+    padding:0;
+    background: #85ace5f2;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0px 5px 15px rgb(22 26 231 / 30%);
+    transition: .3s all;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    z-index: 10;
+}
+.nav-top #right li ul li {
+    margin:10px 0 !important;
+    color:white;
+    transition: .3s all;
+    font-size:15px;
+    transition: .3s all;
+    padding:0 20px;
+}
+.nav-top #right li ul li a{
+    color: white;
+    transition: .3s all;
+}
+.nav-top #right li ul li:hover a{
+    color:#0a58cd;
+}
+.nav-top #right #qg:hover, 
+.nav-top #right #gen:hover{
+    height: 45px;
+}
+.nav-top #right #qg:hover ul,
+.nav-top #right #gen:hover ul {
+    padding:10px !important;
+    opacity: 1;
+    height: auto !important;
+}
+.main-page {
+    margin-top:20px;
+    padding:10px 0;
+}
+.top-movie h1{
+    text-align: center;
+    font-size:50px;
+    color:black;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-inner a{
+    text-decoration: none;
+    color:white !important;
+}
+.all-movie{
+    margin-top:40px;
+    padding:10px;
+    margin-bottom: 40px;
+}
+.all-movie h1{
+    text-align: center;
+    font-size:50px;
+    margin-top:40px;
+    margin-bottom: 20px;
+    color:black;
+}
+.movie-list{
+    padding:0 20px;
+    padding-bottom: 50px;
+}
+.movie-list #item {
+    width: 100%;
+    height:213px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.movie-list #item:hover img{
+    transform: scale(1.2);
+}
+.movie-list #item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s all;
+}
+.movie-list #item div {
+    padding:5px;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(268deg, #7aafff24 -145.97%, #136ae54a 40.85%, #0066ff 141.49%) !important;
+    bottom: 0;
+}
+.movie-list #item div p {
+    margin:0;
+    color:white;
+}
+.movie-list #item div #title{
+    font-weight: bold;
+    font-size:20px;
+}
+.item-top {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    padding: 0 30px;
+}
+.item-top #info-movie {
+    position: absolute;
+    top:0;
+    left: 30px;
+    height:100%;
+    width: calc(100% - 60px);
+    background: linear-gradient(268deg, #7aafff24 -145.97%, #136ae54a 40.85%, #0066ff 141.49%) !important;
+    padding:20px;
+    font-size:80px;
+}
+
+.movie-list #direct-page {
+    margin: 0 auto;
+}
+.movie-list #direct-page ul {
+    list-style-type: none;
+    padding:0;
+}
+.movie-list #direct-page ul li {
+    display: inline-block;
+    margin:0 5px;
+}
+.movie-list #direct-page ul li button{
+    background: #3385ff;
+    border:none;
+    outline: none;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 10px;
+    color:white;
+    transition: .2s all;
+}
+.movie-list #direct-page ul li button:hover{
+    background: #0a58cd;
+}
+.footer{
+    text-align: center;
+    margin-top:40px;
+}
+.list-tag{
+    padding: 0 30px;
+}
+.list-tag ul {
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+.list-tag ul li {
+    display: inline-block;
+}
+.list-tag ul li button {
+    padding:5px 10px;
+    background:none;
+    border:none;
+    border-radius: 5px;
+    line-height: 20px;
+    vertical-align: center;
+    transition: .3s all;
+}
+.list-tag ul li button:hover{
+    color:#3385ff;
+}
+.movie-detail{
+    padding: 0 20px;
+    text-align: center;
+}
+.movie-detail img {
+    width: 100%;
+    height: auto;
+}
+.movie-detail #detail {
+    padding: 0 20px;
+}
+.movie-detail #view{
+    margin:20px 0;
+}
+.movie-detail #view p {
+    margin:0;
+    font-size:25px;
+}
+.movie-detail #rating p{
+    font-size:25px;
+    margin:0;
+}
+.movie-detail #rating {
+    position: relative;
+    height:150px;
+    margin-bottom: 20px;
+}
+.movie-detail #rating-bar {
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.movie-detail #rating #rating-bar div{
+    width: 10px;
+    height:10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin:0 5px;
+}
+.movie-detail #rating #rating-bar div:nth-child(1),
+.movie-detail #rating #rating-bar div:nth-child(2),
+.movie-detail #rating #rating-bar div:nth-child(3){
+    background: #9FEF00;
+    position: relative;
+    cursor: pointer;
+}
+.movie-detail #rating #rating-bar div:nth-child(4),
+.movie-detail #rating #rating-bar div:nth-child(5),
+.movie-detail #rating #rating-bar div:nth-child(6),
+.movie-detail #rating #rating-bar div:nth-child(7){
+    background: #FFA500;
+    position: relative;
+    cursor: pointer;
+}
+.movie-detail #rating #rating-bar div:nth-child(8),
+.movie-detail #rating #rating-bar div:nth-child(9),
+.movie-detail #rating #rating-bar div:nth-child(10){
+    background: #FF3E3E;
+    position: relative;
+    cursor: pointer;
+}
+.movie-detail #rating #rating-bar #sub-title {
+    border-radius: 3px;
+    position: absolute;
+    background: #3385ff;
+    color: white;
+    height: 0;
+    padding: 5px 0;
+    width: 0;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    transition: .3s all;
+    overflow: hidden;
+}
+.movie-detail #rating #rating-bar #sub-title h4 ,
+.movie-detail #rating #rating-bar #sub-title p {
+    font-size:15px !important;
+    margin:0 !important;
+}
+.movie-detail #rating #rating-bar ._bar_:hover #sub-title{
+    left: -60px;
+    bottom:-60px;
+    height: 50px !important;
+    width: 120px !important;
+}
+
+.movie-detail #genre p {
+    font-size:25px;
+    margin:0;
+}
+.movie-detail #genre ul {
+    padding:0;
+    margin:0;
+    list-style-type: none;
+}
+.movie-detail #genre ul li {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.movie-detail #genre ul li button {
+    background: #3385ff;
+    color:white;
+    border: none;
+    padding:5px 10px;
+    font-size:20px;
+    border-radius: 5px;
+    line-height: 30px;
+    vertical-align: center;
+    transition: .2s all;
+}
+.movie-detail #genre ul li button:hover{
+    background: #0066ff;
+}
+.rec-rating {
+    margin:50px 0;
+}
+.rec-rating h1 {
+    padding:0 20px;
+}
+.view-more{
+    background: #3385ff;
+    border: none;
+    outline: none;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 10px;
+    padding:0 20px;
+    font-size:20px;
+    color: white;
+    transition: .2s all;
+}
+.view-more:hover{
+    background: #0a58cd;
+}

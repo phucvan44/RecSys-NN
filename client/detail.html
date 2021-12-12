@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
+        <title>MOVIES</title>
+        <link rel="shortcut icon" href="https://imgur.com/wjUBxcb.png" type="image/x-icon">
+        <link href="./static/css/style.css" rel="stylesheet" />
+        <link href="./static/css/all.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./static/js/loadNavbar.js" ></script>
+        <script src="./static/js/detail.js" ></script>
+    </head>
+    <body style="margin:0 auto">
+        <div class="nav-top">
+            <div class="row no-gutters">
+                <div class="col-xs-6" id="left">
+                    <img src="./static/img/logo.png" />
+                    <a style="color:white;" href="./index.html"><h3>MAICO MOVIE</h3></a>
+                </div>
+                <div id="right" class="col-xs-6">
+                    <ul>
+                        <li id="qg">
+                            QUỐC GIA<i class="fas fa-sort-down"></i>
+                            <ul>
+                            </ul>
+                        </li>
+                        <li id="gen">
+                            THỂ LOẠI<i class="fas fa-sort-down"></i>
+                            <ul>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-page">
+            <div class="movie-detail">
+                <div class="row no-gutters">
+                    <div class="col-md-7">
+                        <img id="img-movie" src="" />
+                    </div>
+                    <div class="col-md-5">
+                        <div id="detail">
+                            <h1></h1>
+                            <div id="view">
+                                <p>Lượt xem</p>
+                                <p id="_view"></p>
+                            </div>
+                            <div id="rating">
+                                <p>Đánh giá</p>
+                                <div id="rating-bar">
+                                    
+                                </div>
+                            </div>
+                            <div id="genre">
+                                <p>Thể loại</p>
+                                <ul>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rec-rating">
+                <h1>Phim có lượt đánh giá tương tự</h1>
+                <div class="movie-list">
+                    <div class="row _rec-rating">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="rec-rating">
+                <h1>Phim có thể loại tương tự</h1>
+                <div class="movie-list">
+                    <div class="row _rec-genres">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h6>© MAICO MOVIES. All Rights Reserved. Make By <a href="https://maicogroup.com/">MAICOGROUP</a></h6>
+        </div>
+    </body>
+
+
+
+    <script src="./static/js/main.js" ></script>
+
+</html>
