@@ -57,4 +57,4 @@ Vào thư mục ./client và mở file index.html.
 
 
 ### Document về Recommendation System
-[a link](https://vesimang-my.sharepoint.com/:w:/g/personal/phucvan_vsm_edu_vnEWUX-yxS1AtBtaTY1Piz7u4Bxew0R5IVAqV8MqcbF6oiMw?rtime=a9VwFsTC2Ug)
+[Link word](https://vesimang-my.sharepoint.com/:w:/g/personal/phucvan_vsm_edu_vn/EWUX-yxS1AtBtaTY1Piz7u4Bxew0R5IVAqV8MqcbF6oiMw?rtime=a9VwFsTC2Ug)
